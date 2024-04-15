@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <ul>
+        <li><a class="naveborder" href="index.html">Home</a></li>
+        <li><a class="naveborder" href="menu.html">Food Gallery</a></li>
+        <li><a class="naveborder" href="about.html">About</a></li>
+        <li><a class="naveborder" href="cart.html">Your order</a></li>
+       <li><a class="naveborder" href="login.html">Login/SignUP</a></li> 
+       </ul>    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe's Deli | My Cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <div class="cart-container">
+        <h1>My Cart</h1>
+        <div id="cart-items"></div>
+        <p>Total: $<span id="total-price">0</span></p>
+        <button onclick="clearCart()">Clear Cart</button>
+        <button onclick="checkout()">Checkout</button>
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+</html>
